@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>QBank PDF Viewer</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        #loading {
+            text-align: center;
+            padding: 30px;
+            font-size: 16px;
+        }
+
+        #error {
+            display: none;
+            padding: 25px;
+            text-align: center;
+            color: #b00020;
+            font-size: 16px;
+        }
+
+        #viewer {
+            width: 100%;
+            padding: 15px;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            margin: 0 auto 18px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading">Loading PDF...</div>
+
+    <div id="error"></div>
+
+    <div id="viewer"></div>
+
+    <script type="module">
+
+        import * as pdfjsLib from "./pdfjs/pdf.mjs";
+
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+            "./pdfjs/pdf.worker.mjs";
+
+        const params = new URLSearchParams(
+            window.location.search
+        );
+
+        const pdfFile = params.get("file");
+
+        const loading = document.getElementById("loading");
+        const errorBox = document.getElementById("error");
+        const viewer = document.getElementById("viewer");
+
+        if (!pdfFile) {
+            loading.style.display = "none";
+            errorBox.style.display = "block";
+            errorBox.textContent = "PDF file not specified.";
+            throw new Error("PDF file not specified");
+        }
+
+        async function loadPDF() {
+
+            try {
+
+                const loadingTask = pdfjsLib.getDocument({
+                    url: pdfFile
+                });
+
+                const pdf = await loadingTask.promise;
+
+                loading.style.display = "none";
+
+                for (
+                    let pageNumber = 1;
+                    pageNumber <= pdf.numPages;
+                    pageNumber++
+                ) {
+
+                    const page = await pdf.getPage(pageNumber);
+
+                    const scale = 1.5;
+
+                    const viewport = page.getViewport({
+                        scale: scale
+                    });
+
+                    const canvas = document.createElement("canvas");
+
+                    const context = canvas.getContext("2d");
+
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+
+                    viewer.appendChild(canvas);
+
+                    await page.render({
+                        canvasContext: context,
+                        viewport: viewport
+                    }).promise;
+                }
+
+            } catch (error) {
+
+                console.error("PDF loading error:", error);
+
+                loading.style.display = "none";
+
+                errorBox.style.display = "block";
+
+                errorBox.textContent =
+                    "Unable to open this PDF.";
+
+            }
+        }
+
+        loadPDF();
+
+    </script>
+
+</body>
+</html>
