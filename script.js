@@ -634,6 +634,30 @@ const PDF_DATABASE = {
             title: "Engineering Mathematics-I — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/M(IT)101.pdf"
+        },
+        {
+            year: "2024",
+            title: "Engineering Mathematics-I — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/R23_M(IT)101_188.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Mathematics-I — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/R23_M101.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Mathematics-I — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/R23_M(IT)101_189.pdf"
+        },
+        {
+            year: "2022",
+            title: "Engineering Mathematics-I — 2022",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/21_M101.pdf"
         }
     ],
 
@@ -643,27 +667,57 @@ const PDF_DATABASE = {
             title: "Engineering Chemistry — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/r25_CH101.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Chemistry — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/CH101.pdf"
+        },
+        {
+            year: "2022",
+            title: "Engineering Chemistry — 2022",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/21_CH101.pdf"
         }
     ],
     "CS101": [
         {
-             year: "2025",
+            year: "2025",
             title: "Introduction to Pogramming and Problem Solving — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R25_CS101.pdf"
+        },
+        {
+            year: "2024",
+            title: "Introduction to Pogramming and Problem Solving — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/R23_IT101_186.pdf"
+        },
+        {
+            year: "2023",
+            title: "Introduction to Pogramming and Problem Solving — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/IT101_189.pdf"
+        },
+        {
+            year: "2018",
+            title: "Introduction to Pogramming and Problem Solving — 2018",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/18_CS201.pdf"
         }
     ],
     "CS102": [
         {
-             year: "2025",
+            year: "2025",
             title: "Introduction to Artificial Intelligence — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R25_CS102.pdf"
         }
     ],
-"HU103": [
+    "HU103": [
         {
-             year: "2025",
+            year: "2025",
             title: "Design Thinking & Innovation — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R25_HU103.pdf"
@@ -671,10 +725,16 @@ const PDF_DATABASE = {
     ],
     "HU105": [
         {
-             year: "2025",
+            year: "2025",
             title: "Constitution of India & Professional Ethics — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R25_HU105.pdf"
+        },
+        {
+            year: "2024",
+            title: "Constitution of India & Professional Ethics — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/HU203.pdf"
         }
     ],
 };
@@ -744,7 +804,7 @@ const resultCount =
 function elementExists(element) {
 
     return element !== null &&
-           element !== undefined;
+        element !== undefined;
 
 }
 
@@ -1180,7 +1240,7 @@ function loadSemesters() {
 
             const subjectCount =
                 IT_CURRICULUM[selectedYear]
-                    [semester]
+                [semester]
                     .length;
 
 
@@ -1275,7 +1335,7 @@ function loadSubjects() {
 
     const subjects =
         IT_CURRICULUM[selectedYear]
-            ?. [selectedSemester];
+        ?.[selectedSemester];
 
 
     if (!subjects) {
@@ -1393,17 +1453,16 @@ function showPapers(subject) {
 
     const papers =
         PDF_DATABASE[
-            subject.code
+        subject.code
         ] || [];
 
 
     if (elementExists(resultCount)) {
 
         resultCount.textContent =
-            `${papers.length} ${
-                papers.length === 1
-                    ? "Paper"
-                    : "Papers"
+            `${papers.length} ${papers.length === 1
+                ? "Paper"
+                : "Papers"
             }`;
 
     }
@@ -1436,8 +1495,8 @@ function showPapers(subject) {
 
                         <strong>
                             ${escapeHTML(
-                                subject.name
-                            )}
+                subject.name
+            )}
                         </strong>.
 
                     </p>
@@ -1445,20 +1504,20 @@ function showPapers(subject) {
                     <div class="paper-path">
 
                         ${escapeHTML(
-                            selectedYear
-                        )}
+                selectedYear
+            )}
 
                         <span>→</span>
 
                         ${escapeHTML(
-                            selectedSemester
-                        )}
+                selectedSemester
+            )}
 
                         <span>→</span>
 
                         ${escapeHTML(
-                            subject.code
-                        )}
+                subject.code
+            )}
 
                     </div>
 
@@ -1519,15 +1578,15 @@ function showPapers(subject) {
 
                         <span>
                             ${escapeHTML(
-                                paper.year
-                            )}
+                paper.year
+            )}
                         </span>
 
                         <span>
                             ${escapeHTML(
-                                paper.examType ||
-                                "PYQ"
-                            )}
+                paper.examType ||
+                "PYQ"
+            )}
                         </span>
 
                     </div>
@@ -1535,22 +1594,22 @@ function showPapers(subject) {
 
                     <h3>
                         ${escapeHTML(
-                            paper.title
-                        )}
+                paper.title
+            )}
                     </h3>
 
 
                     <p>
 
                         ${escapeHTML(
-                            subject.code
-                        )}
+                subject.code
+            )}
 
                         •
 
                         ${escapeHTML(
-                            subject.name
-                        )}
+                subject.name
+            )}
 
                     </p>
 
