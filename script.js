@@ -643,13 +643,13 @@ const PDF_DATABASE = {
         },
         {
             year: "2023",
-            title: "Engineering Mathematics-I — 2023",
+            title: "Engineering Mathematics-I — 2023 (1)",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/M101.pdf"
         },
         {
             year: "2023",
-            title: "Engineering Mathematics-I — 2023",
+            title: "Engineering Mathematics-I — 2023 (2)",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/M(IT)101_189.pdf"
         },
@@ -664,13 +664,13 @@ const PDF_DATABASE = {
     "CH101": [
         {
             year: "2025",
-            title: "Engineering Chemistry — 2025",
+            title: "Engineering Chemistry — 2025 (1)",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/r25_CH101.pdf"
         },
         {
          year: "2025",
-            title: "Engineering Chemistry — 2025",
+            title: "Engineering Chemistry — 2025 (2)",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R23_CH(IT)201.pdf"
         },
@@ -732,9 +732,15 @@ const PDF_DATABASE = {
     "HU105": [
         {
             year: "2025",
-            title: "Constitution of India & Professional Ethics — 2025",
+            title: "Constitution of India & Professional Ethics — 2025 (1)",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R25_HU105.pdf"
+        },
+        {
+            year: "2025",
+            title: "Constitution of India & Professional Ethics — 2025 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/R23_HU203.pdf"
         },
         {
             year: "2024",
