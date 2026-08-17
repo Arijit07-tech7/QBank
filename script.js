@@ -747,8 +747,82 @@ const PDF_DATABASE = {
             title: "Constitution of India & Professional Ethics — 2024",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/HU203.pdf"
+        },
+    ],
+    "CS201": [
+        {
+            year: "2026",
+            title: "Data Structure and Algorithms — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R25_IT201.pdf"
+        },
+        {
+            year: "2025",
+            title: "Data Structure and Algorithms — 2025",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R23_IT201.pdf"
         }
     ],
+
+    "PH201": [
+        {
+            year: "2026",
+            title: "Engineering Physics — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R25_PH201.pdf"
+        },
+        {
+            year: "2026",
+            title: "Engineering Physics — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R23_PH(IT)201.pdf"
+        }
+    ],
+
+    "M201": [
+        {
+            year: "2026",
+            title: "Engineering Mathematics II — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R25_M201.pdf"
+        },
+        {
+            year: "2025",
+            title: "Engineering Mathematics II — 2025",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R23_M(IT)201.pdf"
+        }
+    ],
+
+    "HU201": [
+        {
+            year: "2026",
+            title: "Environmental Science — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R25_HU201.pdf"
+        },
+        {
+            year: "2026",
+            title: "Environmental Science — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R23_HU104.pdf"
+        }
+    ],
+
+    "HU202": [
+        {
+            year: "2026",
+            title: "Indian Knowledge System — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/IKS_2026.pdf"
+        },
+        {
+            year: "2024",
+            title: "Indian Knowledge System — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/R23_HU105.pdf"
+        }
+    ]
 
 };
 
