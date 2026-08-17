@@ -8,9 +8,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/No-Login-111827?style=flat-square" alt="No Login">
-  <img src="https://img.shields.io/badge/No-Backend-111827?style=flat-square" alt="No Backend">
-  <img src="https://img.shields.io/badge/No-Database-111827?style=flat-square" alt="No Database">
   <img src="https://img.shields.io/badge/Lightweight-Fast-F59E0B?style=flat-square" alt="Fast">
   <img src="https://img.shields.io/badge/Mobile-Friendly-22C55E?style=flat-square" alt="Responsive">
 </p>
