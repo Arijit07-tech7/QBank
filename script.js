@@ -669,6 +669,12 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/r25_CH101.pdf"
         },
         {
+         year: "2025",
+            title: "Engineering Chemistry — 2025",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/R23_CH(IT)201.pdf"
+        },
+        {
             year: "2023",
             title: "Engineering Chemistry — 2023",
             examType: "Previous Year Question Paper",
@@ -737,6 +743,7 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/HU203.pdf"
         }
     ],
+
 };
 
 
