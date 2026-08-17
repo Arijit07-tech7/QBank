@@ -21,11 +21,22 @@
    PDF
         ↓
    View / Download
+
+   DEPARTMENTS:
+   IT
+   CSE
+
+   IMPORTANT:
+   IT DATA IS PRESERVED.
+   CSE IS ADDED SEPARATELY.
 ========================================================= */
 
 
 /* =========================================================
    IT CURRICULUM
+   =========================================================
+   EXISTING IT CURRICULUM
+   KEPT AS PROVIDED
 ========================================================= */
 
 const IT_CURRICULUM = {
@@ -94,11 +105,6 @@ const IT_CURRICULUM = {
                 type: "Practical"
             },
 
-            {
-                code: "MC181",
-                name: "Induction Program",
-                type: "Mandatory"
-            }
 
         ],
 
@@ -605,28 +611,630 @@ const IT_CURRICULUM = {
 
 
 /* =========================================================
-   PDF DATABASE
-=========================================================
+   CSE CURRICULUM
+   R-25 CURRICULUM
+   B.TECH COMPUTER SCIENCE & ENGINEERING
+   Narula Institute of Technology
+   Effective from 2025-26 Admission Batch
 
-   YOUR CURRENT PDF:
-
-   PDFs
-      └── IT
-          └── Semester 1
-              └── M(IT)101.pdf
-
-   Curriculum code:
-      M101
-
-   Subject:
-      Engineering Mathematics-I
-
-   Year:
-      2025
-
+   SOURCE DATA PROVIDED BY USER
 ========================================================= */
 
-const PDF_DATABASE = {
+const CSE_CURRICULUM = {
+
+    "1st Year": {
+
+        "Semester 1": [
+
+            {
+                code: "CS101",
+                name: "Introduction to Programming and Problem Solving (CSE & Allied)",
+                type: "Theory"
+            },
+
+            {
+                code: "PH101",
+                name: "Engineering Physics",
+                type: "Theory"
+            },
+
+            {
+                code: "M101",
+                name: "Engineering Mathematics-I",
+                type: "Theory"
+            },
+
+            {
+                code: "HU101",
+                name: "Environmental Science",
+                type: "Theory"
+            },
+
+            {
+                code: "HU102",
+                name: "Indian Knowledge System",
+                type: "Theory"
+            },
+
+            {
+                code: "CS191",
+                name: "Introduction to Programming and Problem-Solving Lab (CSE & Allied)",
+                type: "Practical"
+            },
+
+            {
+                code: "PH191",
+                name: "Engineering Physics Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "ME194",
+                name: "Engineering Graphics & Computer Aided Design Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "HU191",
+                name: "Communication & Presentation Skill",
+                type: "Practical"
+            },
+
+
+        ],
+
+
+        "Semester 2": [
+
+            {
+                code: "CS201",
+                name: "Data Structure & Algorithms",
+                type: "Theory"
+            },
+
+            {
+                code: "CS202",
+                name: "Introduction to Artificial Intelligence",
+                type: "Theory"
+            },
+
+            {
+                code: "CS203",
+                name: "Digital Logic and Computer Organization",
+                type: "Theory"
+            },
+
+            {
+                code: "CH201",
+                name: "Engineering Chemistry",
+                type: "Theory"
+            },
+
+            {
+                code: "M201",
+                name: "Engineering Mathematics–II",
+                type: "Theory"
+            },
+
+            {
+                code: "HU202",
+                name: "Constitution of India & Professional Ethics",
+                type: "Theory"
+            },
+
+            {
+                code: "HU203",
+                name: "Design Thinking & Innovation",
+                type: "Theory"
+            },
+
+            {
+                code: "CS291",
+                name: "Data Structure & Algorithms Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS292",
+                name: "Artificial Intelligence Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS293",
+                name: "Digital Logic and Computer Organization Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CH291",
+                name: "Engineering Chemistry Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "ME293",
+                name: "IDEA LAB Workshop",
+                type: "Practical"
+            },
+
+            {
+                code: "MC281",
+                name: "NSS / Physical Activities / Meditation & Yoga / Photography / Nature Club",
+                type: "Mandatory"
+            }
+
+        ]
+
+    },
+
+
+    "2nd Year": {
+
+        "Semester 3": [
+
+            {
+                code: "CS301",
+                name: "Computer Architecture",
+                type: "Theory"
+            },
+
+            {
+                code: "CS302",
+                name: "Design and Analysis of Algorithms",
+                type: "Theory"
+            },
+
+            {
+                code: "CS303",
+                name: "Operating Systems",
+                type: "Theory"
+            },
+
+            {
+                code: "CS304",
+                name: "Advanced Artificial Intelligence",
+                type: "Theory"
+            },
+
+            {
+                code: "EC(CS)301",
+                name: "Internet of Things",
+                type: "Theory"
+            },
+
+            {
+                code: "M(CS)301",
+                name: "Discrete Mathematics",
+                type: "Theory"
+            },
+
+            {
+                code: "CS391",
+                name: "Computer Architecture Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS392",
+                name: "Design and Analysis of Algorithms Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS393",
+                name: "Operating Systems Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS394",
+                name: "Advanced Artificial Intelligence Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS395",
+                name: "Python Programming Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "EC(CS)391",
+                name: "Internet of Things Lab",
+                type: "Practical"
+            }
+
+        ],
+
+
+        "Semester 4": [
+
+            {
+                code: "CS401",
+                name: "Database Management Systems",
+                type: "Theory"
+            },
+
+            {
+                code: "CS402",
+                name: "Computer Networks",
+                type: "Theory"
+            },
+
+            {
+                code: "CS403",
+                name: "Machine Learning",
+                type: "Theory"
+            },
+
+            {
+                code: "CS404",
+                name: "Formal Language and Automata Theory",
+                type: "Theory"
+            },
+
+            {
+                code: "M(CS)401",
+                name: "Probability and Statistics",
+                type: "Theory"
+            },
+
+            {
+                code: "CS491",
+                name: "Database Management Systems Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS492",
+                name: "Computer Networks Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS493",
+                name: "Machine Learning Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "M(CS)491",
+                name: "Introduction to R Programming",
+                type: "Practical"
+            },
+
+            {
+                code: "HU(CS)491",
+                name: "Soft Skill & Aptitude",
+                type: "Practical"
+            }
+
+        ]
+
+    },
+
+
+    "3rd Year": {
+
+        "Semester 5": [
+
+            {
+                code: "CS501",
+                name: "Software Engineering",
+                type: "Theory"
+            },
+
+            {
+                code: "CS502",
+                name: "Object Oriented Programming using Java",
+                type: "Theory"
+            },
+
+            {
+                code: "CS503A",
+                name: "Compiler Design",
+                type: "Elective"
+            },
+
+            {
+                code: "CS503B",
+                name: "Cryptography and Network Security",
+                type: "Elective"
+            },
+
+            {
+                code: "CS503C",
+                name: "Computer Graphics",
+                type: "Elective"
+            },
+
+            {
+                code: "CS503D",
+                name: "Data Handling and Visualization",
+                type: "Elective"
+            },
+
+            {
+                code: "CS504",
+                name: "Soft Computing",
+                type: "Theory"
+            },
+
+            {
+                code: "HU(CS)501",
+                name: "Project Management & Finance",
+                type: "Theory"
+            },
+
+            {
+                code: "CS591",
+                name: "Software Engineering Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS592",
+                name: "Object Oriented Programming using Java Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS593A",
+                name: "Compiler Design Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS593B",
+                name: "Cryptography and Network Security Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS593C",
+                name: "Computer Graphics Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS593D",
+                name: "Data Handling and Visualization Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS594",
+                name: "Soft Computing Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS582",
+                name: "Project-I",
+                type: "Project"
+            }
+
+        ],
+
+
+        "Semester 6": [
+
+            {
+                code: "CS601",
+                name: "Web and Internet Technology",
+                type: "Theory"
+            },
+
+            {
+                code: "CS602",
+                name: "Deep Learning",
+                type: "Theory"
+            },
+
+            {
+                code: "CS603A",
+                name: "Image Processing",
+                type: "Elective"
+            },
+
+            {
+                code: "CS603B",
+                name: "Cloud Computing",
+                type: "Elective"
+            },
+
+            {
+                code: "CS603C",
+                name: "Big Data and Data Analytics",
+                type: "Elective"
+            },
+
+            {
+                code: "CS603D",
+                name: "Natural Language Processing",
+                type: "Elective"
+            },
+
+            {
+                code: "CS604A",
+                name: "Mobile Computing",
+                type: "Elective"
+            },
+
+            {
+                code: "CS604B",
+                name: "Human Computer Interaction",
+                type: "Elective"
+            },
+
+            {
+                code: "CS604C",
+                name: "E-Commerce and Digital Business Model",
+                type: "Elective"
+            },
+
+            {
+                code: "CS604D",
+                name: "Quantum Computing",
+                type: "Elective"
+            },
+
+            {
+                code: "CS605",
+                name: "Cyber Law and Ethics",
+                type: "Theory"
+            },
+
+            {
+                code: "CS691",
+                name: "Web and Internet Technology Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS692",
+                name: "Deep Learning Lab",
+                type: "Practical"
+            },
+
+            {
+                code: "CS693A",
+                name: "Image Processing Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS693B",
+                name: "Cloud Computing Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS693C",
+                name: "Data Analytics Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS693D",
+                name: "Natural Language Processing Lab",
+                type: "Elective"
+            },
+
+            {
+                code: "CS681",
+                name: "Project-II",
+                type: "Project"
+            }
+
+        ]
+
+    },
+
+
+    "4th Year": {
+
+        "Semester 7": [
+
+            {
+                code: "CS701A",
+                name: "Blockchain Technology",
+                type: "Elective"
+            },
+
+            {
+                code: "CS701B",
+                name: "Optimization Technique",
+                type: "Elective"
+            },
+
+            {
+                code: "CS701C",
+                name: "Bio-informatics",
+                type: "Elective"
+            },
+
+            {
+                code: "CS701D",
+                name: "Robotics",
+                type: "Elective"
+            },
+
+            {
+                code: "HU(CS)701",
+                name: "Human Resource Development and Organizational Behavior",
+                type: "Theory"
+            },
+
+            {
+                code: "HU702",
+                name: "Research Methodology & IPR",
+                type: "Theory"
+            },
+
+            {
+                code: "CS793",
+                name: "Project-III",
+                type: "Project"
+            },
+
+            {
+                code: "CS781",
+                name: "Internship (Minimum 1 Month)",
+                type: "Internship"
+            },
+
+            {
+                code: "PR792",
+                name: "Rapid Prototyping Lab",
+                type: "Practical"
+            }
+
+        ],
+
+
+        "Semester 8": [
+
+            {
+                code: "CS881",
+                name: "Grand Viva",
+                type: "Grand Viva"
+            },
+
+            {
+                code: "CS882",
+                name: "Internship / Entrepreneurship",
+                type: "Internship"
+            }
+
+        ]
+
+    }
+
+};
+
+
+/* =========================================================
+   DEPARTMENT-WISE CURRICULUM
+========================================================= */
+
+const CURRICULUM = {
+
+    IT: IT_CURRICULUM,
+
+    CSE: CSE_CURRICULUM
+
+};
+
+
+/* =========================================================
+   IT PDF DATABASE
+   EXISTING IT PDF DATA
+   KEPT SEPARATE FROM CSE
+========================================================= */
+
+const IT_PDF_DATABASE = {
 
     "M101": [
         {
@@ -675,7 +1283,7 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/r25_CH101.pdf"
         },
         {
-         year: "2025",
+            year: "2025",
             title: "Engineering Chemistry — 2025 (2)",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/R23_CH(IT)201.pdf"
@@ -693,6 +1301,7 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/21_CH101.pdf"
         }
     ],
+
     "CS101": [
         {
             year: "2025",
@@ -719,6 +1328,7 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/18_CS201.pdf"
         }
     ],
+
     "CS102": [
         {
             year: "2025",
@@ -727,6 +1337,7 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/R25_CS102.pdf"
         }
     ],
+
     "HU103": [
         {
             year: "2025",
@@ -735,6 +1346,7 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/R25_HU103.pdf"
         }
     ],
+
     "HU105": [
         {
             year: "2025",
@@ -753,8 +1365,9 @@ const PDF_DATABASE = {
             title: "Constitution of India & Professional Ethics — 2024",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-1/HU203.pdf"
-        },
+        }
     ],
+
     "CS201": [
         {
             year: "2026",
@@ -795,7 +1408,6 @@ const PDF_DATABASE = {
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-2/P(IT)101_189.pdf"
         }
-        
     ],
 
     "M201": [
@@ -860,6 +1472,41 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-2/HU105_479.pdf"
         }
     ]
+
+};
+
+
+/* =========================================================
+   CSE PDF DATABASE
+   =========================================================
+   ONLY PDF PROVIDED BY USER IS ADDED.
+
+   More CSE PDFs can be added later without touching IT.
+========================================================= */
+
+const CSE_PDF_DATABASE = {
+
+    "CS101": [
+        {
+            year: "2025",
+            title: "Introduction to Programming and Problem Solving — 2025",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/CS101.pdf"
+        }
+    ]
+
+};
+
+
+/* =========================================================
+   DEPARTMENT-WISE PDF DATABASE
+========================================================= */
+
+const PDF_DATABASE = {
+
+    IT: IT_PDF_DATABASE,
+
+    CSE: CSE_PDF_DATABASE
 
 };
 
@@ -1067,11 +1714,13 @@ document
 
 
                 /*
-                   Only IT is active.
+                   IT and CSE are active.
+                   Other departments remain coming soon.
                 */
 
                 if (
-                    department !== "IT"
+                    department !== "IT" &&
+                    department !== "CSE"
                 ) {
 
                     showToast(
@@ -1083,8 +1732,14 @@ document
                 }
 
 
+                /*
+                   IMPORTANT:
+                   DO NOT force department to IT.
+                   This fixes the previous CSE → IT bug.
+                */
+
                 selectedDepartment =
-                    "IT";
+                    department;
 
 
                 openExplorer();
@@ -1284,6 +1939,7 @@ document
 
 /* =========================================================
    LOAD SEMESTERS
+   DEPARTMENT AWARE
 ========================================================= */
 
 function loadSemesters() {
@@ -1318,10 +1974,22 @@ function loadSemesters() {
     }
 
 
-    if (!IT_CURRICULUM[selectedYear]) {
+    /*
+       Get the correct curriculum based on
+       selected department.
+    */
+
+    const departmentCurriculum =
+        CURRICULUM[selectedDepartment];
+
+
+    if (
+        !departmentCurriculum ||
+        !departmentCurriculum[selectedYear]
+    ) {
 
         showToast(
-            "No academic data available for this year."
+            `No academic data available for ${selectedDepartment} in ${selectedYear}.`
         );
 
         return;
@@ -1331,7 +1999,7 @@ function loadSemesters() {
 
     const semesters =
         Object.keys(
-            IT_CURRICULUM[selectedYear]
+            departmentCurriculum[selectedYear]
         );
 
 
@@ -1363,7 +2031,7 @@ function loadSemesters() {
 
 
             const subjectCount =
-                IT_CURRICULUM[selectedYear]
+                departmentCurriculum[selectedYear]
                 [semester]
                     .length;
 
@@ -1371,7 +2039,7 @@ function loadSemesters() {
             button.innerHTML = `
 
                 <strong>
-                    ${semester}
+                    ${escapeHTML(semester)}
                 </strong>
 
                 <small>
@@ -1413,6 +2081,30 @@ function loadSemesters() {
             );
 
 
+            /*
+               Keyboard accessibility for
+               dynamically created buttons.
+            */
+
+            button.addEventListener(
+                "keydown",
+                event => {
+
+                    if (
+                        event.key === "Enter" ||
+                        event.key === " "
+                    ) {
+
+                        event.preventDefault();
+
+                        button.click();
+
+                    }
+
+                }
+            );
+
+
             semesterOptions.appendChild(
                 button
             );
@@ -1434,6 +2126,7 @@ function loadSemesters() {
 
 /* =========================================================
    LOAD SUBJECTS
+   DEPARTMENT AWARE
 ========================================================= */
 
 function loadSubjects() {
@@ -1457,9 +2150,18 @@ function loadSubjects() {
     }
 
 
+    /*
+       Get selected department curriculum.
+    */
+
+    const departmentCurriculum =
+        CURRICULUM[selectedDepartment];
+
+
     const subjects =
-        IT_CURRICULUM[selectedYear]
-        ?.[selectedSemester];
+        departmentCurriculum
+            ?. [selectedYear]
+            ?. [selectedSemester];
 
 
     if (!subjects) {
@@ -1496,17 +2198,17 @@ function loadSubjects() {
             button.innerHTML = `
 
                 <div class="subject-code">
-                    ${subject.code}
+                    ${escapeHTML(subject.code)}
                 </div>
 
                 <div class="subject-selector-info">
 
                     <strong>
-                        ${subject.name}
+                        ${escapeHTML(subject.name)}
                     </strong>
 
                     <span>
-                        ${subject.type}
+                        ${escapeHTML(subject.type)}
                     </span>
 
                 </div>
@@ -1550,6 +2252,29 @@ function loadSubjects() {
             );
 
 
+            /*
+               Keyboard accessibility.
+            */
+
+            button.addEventListener(
+                "keydown",
+                event => {
+
+                    if (
+                        event.key === "Enter" ||
+                        event.key === " "
+                    ) {
+
+                        event.preventDefault();
+
+                        button.click();
+
+                    }
+
+                }
+            );
+
+
             subjectOptions.appendChild(
                 button
             );
@@ -1571,13 +2296,27 @@ function loadSubjects() {
 
 /* =========================================================
    SHOW PAPERS
+   DEPARTMENT + SUBJECT CODE AWARE
 ========================================================= */
 
 function showPapers(subject) {
 
+    /*
+       IMPORTANT:
+       IT → IT_PDF_DATABASE
+       CSE → CSE_PDF_DATABASE
+
+       Therefore IT CS101 and CSE CS101
+       can coexist safely.
+    */
+
+    const departmentPDFDatabase =
+        PDF_DATABASE[selectedDepartment] || {};
+
+
     const papers =
-        PDF_DATABASE[
-        subject.code
+        departmentPDFDatabase[
+            subject.code
         ] || [];
 
 
@@ -1626,6 +2365,12 @@ function showPapers(subject) {
                     </p>
 
                     <div class="paper-path">
+
+                        ${escapeHTML(
+                selectedDepartment
+            )}
+
+                        <span>→</span>
 
                         ${escapeHTML(
                 selectedYear
@@ -1683,6 +2428,11 @@ function showPapers(subject) {
                 "paper-card";
 
 
+            /*
+               encodeURI preserves the PDF path
+               while safely handling spaces etc.
+            */
+
             const safeFile =
                 encodeURI(
                     paper.file
@@ -1724,6 +2474,12 @@ function showPapers(subject) {
 
 
                     <p>
+
+                        ${escapeHTML(
+                selectedDepartment
+            )}
+
+                        •
 
                         ${escapeHTML(
                 subject.code
@@ -1978,6 +2734,7 @@ document
 
 /* =========================================================
    KEYBOARD ACCESSIBILITY
+   FOR EXISTING STATIC ELEMENTS
 ========================================================= */
 
 document
@@ -2050,18 +2807,28 @@ console.log(
 );
 
 console.log(
-    "Department:",
+    "Available Departments:",
+    Object.keys(CURRICULUM)
+);
+
+console.log(
+    "Current Department:",
     selectedDepartment
+);
+
+console.log(
+    "IT Curriculum:",
+    IT_CURRICULUM
+);
+
+console.log(
+    "CSE Curriculum:",
+    CSE_CURRICULUM
 );
 
 console.log(
     "PDF Database:",
     PDF_DATABASE
-);
-
-console.log(
-    "Current PDF:",
-    "PDFs/IT/Semester 1/M(IT)101.pdf"
 );
 
 

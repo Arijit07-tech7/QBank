@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +21,7 @@
 <body>
 
 <!-- =========================================================
-     PREMIUM SPLASH SCREEN
+     PREMIUM 3D GLOWING SPLASH SCREEN
 ========================================================= -->
 
 <div id="splashScreen" class="splash-screen">
@@ -29,16 +29,18 @@
     <div class="splash-bg"></div>
     <div class="splash-grid"></div>
 
-    <!-- Ambient glow -->
+    <!-- 3D ambient glows -->
     <div class="rainbow-glow glow-1"></div>
     <div class="rainbow-glow glow-2"></div>
     <div class="rainbow-glow glow-3"></div>
+    <div class="rainbow-glow glow-4"></div>
 
-    <!-- Decorative orbits -->
+    <!-- 3D orbit system -->
     <div class="splash-orbit orbit-a"></div>
     <div class="splash-orbit orbit-b"></div>
+    <div class="splash-orbit orbit-c"></div>
 
-    <!-- Floating academic cards -->
+    <!-- Floating 3D academic objects -->
     <div class="academic-float float-1">
         <span class="float-icon">Q</span>
         <div>
@@ -72,7 +74,7 @@
     </div>
 
 
-    <!-- CENTRAL SPLASH -->
+    <!-- CENTRAL 3D CORE -->
     <div class="qbank-splash-core">
 
         <div class="splash-institute">
@@ -82,14 +84,18 @@
         </div>
 
 
+        <!-- Glowing 3D QB sphere -->
         <div class="qbank-logo-wrap">
 
             <div class="logo-ring ring-1"></div>
             <div class="logo-ring ring-2"></div>
+            <div class="logo-ring ring-3"></div>
 
             <div class="qbank-logo">
+
                 <div class="logo-q">Q</div>
                 <div class="logo-b">B</div>
+
             </div>
 
         </div>
@@ -643,6 +649,8 @@
 
     <div class="department-grid">
 
+        <!-- IT — UNCHANGED / ACTIVE -->
+
         <button
             class="department-card color-2 active-department"
             data-department="IT">
@@ -674,8 +682,10 @@
         </button>
 
 
+        <!-- CSE — NOW ACTIVE -->
+
         <button
-            class="department-card color-1 coming-soon"
+            class="department-card color-1 active-department"
             data-department="CSE">
 
             <span class="department-number">
@@ -690,28 +700,29 @@
                 Computer Science & Engineering
             </h3>
 
-            <p>B.Tech</p>
+            <p>
+                B.Tech
+            </p>
 
-            <span class="department-arrow">→</span>
+            <span class="department-arrow">
+                ↗
+            </span>
 
-            <span class="coming-badge">
-                COMING SOON
+            <span class="available-badge">
+                AVAILABLE
             </span>
 
         </button>
 
 
+        <!-- REMAINING DEPARTMENTS — UNCHANGED -->
+
         <button
             class="department-card color-3 coming-soon"
             data-department="ECE">
 
-            <span class="department-number">
-                03
-            </span>
-
-            <span class="department-code">
-                ECE
-            </span>
+            <span class="department-number">03</span>
+            <span class="department-code">ECE</span>
 
             <h3>
                 Electronics & Communication Engineering
@@ -732,13 +743,8 @@
             class="department-card color-4 coming-soon"
             data-department="EE">
 
-            <span class="department-number">
-                04
-            </span>
-
-            <span class="department-code">
-                EE
-            </span>
+            <span class="department-number">04</span>
+            <span class="department-code">EE</span>
 
             <h3>
                 Electrical Engineering
@@ -759,13 +765,8 @@
             class="department-card color-5 coming-soon"
             data-department="EIE">
 
-            <span class="department-number">
-                05
-            </span>
-
-            <span class="department-code">
-                EIE
-            </span>
+            <span class="department-number">05</span>
+            <span class="department-code">EIE</span>
 
             <h3>
                 Electronics & Instrumentation Engineering
@@ -786,13 +787,8 @@
             class="department-card color-6 coming-soon"
             data-department="ME">
 
-            <span class="department-number">
-                06
-            </span>
-
-            <span class="department-code">
-                ME
-            </span>
+            <span class="department-number">06</span>
+            <span class="department-code">ME</span>
 
             <h3>
                 Mechanical Engineering
@@ -813,13 +809,8 @@
             class="department-card color-7 coming-soon"
             data-department="CE">
 
-            <span class="department-number">
-                07
-            </span>
-
-            <span class="department-code">
-                CE
-            </span>
+            <span class="department-number">07</span>
+            <span class="department-code">CE</span>
 
             <h3>
                 Civil Engineering
@@ -840,13 +831,8 @@
             class="department-card color-8 coming-soon"
             data-department="CST">
 
-            <span class="department-number">
-                08
-            </span>
-
-            <span class="department-code">
-                CST
-            </span>
+            <span class="department-number">08</span>
+            <span class="department-code">CST</span>
 
             <h3>
                 Computer Science & Technology
@@ -867,13 +853,8 @@
             class="department-card color-9 coming-soon"
             data-department="AIML">
 
-            <span class="department-number">
-                09
-            </span>
-
-            <span class="department-code">
-                AIML
-            </span>
+            <span class="department-number">09</span>
+            <span class="department-code">AIML</span>
 
             <h3>
                 Computer Science (AI & Machine Learning)
@@ -894,13 +875,8 @@
             class="department-card color-10 coming-soon"
             data-department="DS">
 
-            <span class="department-number">
-                10
-            </span>
-
-            <span class="department-code">
-                DS
-            </span>
+            <span class="department-number">10</span>
+            <span class="department-code">DS</span>
 
             <h3>
                 Computer Science (Data Science)
@@ -921,13 +897,8 @@
             class="department-card color-11 coming-soon"
             data-department="CSBS">
 
-            <span class="department-number">
-                11
-            </span>
-
-            <span class="department-code">
-                CSBS
-            </span>
+            <span class="department-number">11</span>
+            <span class="department-code">CSBS</span>
 
             <h3>
                 Computer Science & Business Systems
@@ -1106,7 +1077,6 @@
 
             <div id="semesterOptions"
                  class="option-grid semester-grid">
-
             </div>
 
         </div>
@@ -1138,7 +1108,6 @@
 
             <div id="subjectOptions"
                  class="subject-selector-grid">
-
             </div>
 
         </div>
@@ -1242,7 +1211,7 @@
 
 
 <!-- =========================================================
-     THEORY SUBJECT PREVIEW
+     CSE THEORY SUBJECT PREVIEW
 ========================================================= -->
 
 <section id="subjects"
@@ -1256,14 +1225,15 @@
     <div class="section-heading-row">
 
         <h2>
-            A glimpse of the
+            CSE R-25
             <em>theory subjects.</em>
         </h2>
 
         <p>
-            IT theory subjects are organised according
-            to the official semester curriculum.
-            Practical and laboratory subjects are excluded.
+            Computer Science & Engineering theory subjects
+            according to the R-25 curriculum.
+            Practical, laboratory, project and internship
+            components are excluded.
         </p>
 
     </div>
@@ -1271,17 +1241,22 @@
 
     <div class="subject-grid">
 
-        <!-- SEMESTER 1 -->
+
+        <!-- =================================================
+             SEMESTER 1
+        ================================================= -->
 
         <article class="subject-card">
             <div class="subject-top">
                 <span>CS101</span>
                 <small>SEM 01</small>
             </div>
+
             <h3>
                 Introduction to Programming
-                and Problem Solving
+                and Problem-Solving
             </h3>
+
             <p>
                 Theory · Engineering · Major
             </p>
@@ -1290,26 +1265,14 @@
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>CS102</span>
+                <span>PH101</span>
                 <small>SEM 01</small>
             </div>
-            <h3>
-                Introduction to Artificial Intelligence
-            </h3>
-            <p>
-                Theory · Engineering · Minor
-            </p>
-        </article>
 
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>CH101</span>
-                <small>SEM 01</small>
-            </div>
             <h3>
-                Engineering Chemistry
+                Engineering Physics
             </h3>
+
             <p>
                 Theory · Science · Multidisciplinary
             </p>
@@ -1321,54 +1284,63 @@
                 <span>M101</span>
                 <small>SEM 01</small>
             </div>
+
             <h3>
                 Engineering Mathematics-I
             </h3>
+
             <p>
-                Theory · Mathematics
+                Theory · Science · Multidisciplinary
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>HU105</span>
+                <span>HU101</span>
                 <small>SEM 01</small>
             </div>
+
             <h3>
-                Constitution of India &
-                Professional Ethics
+                Environmental Science
             </h3>
+
             <p>
-                Theory · Humanities
+                Theory · Humanities · Value Added
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>HU103</span>
+                <span>HU102</span>
                 <small>SEM 01</small>
             </div>
+
             <h3>
-                Design Thinking & Innovation
+                Indian Knowledge System
             </h3>
+
             <p>
-                Theory · Humanities
+                Theory · Humanities · Value Added
             </p>
         </article>
 
 
-        <!-- SEMESTER 2 -->
+        <!-- =================================================
+             SEMESTER 2
+        ================================================= -->
 
         <article class="subject-card">
             <div class="subject-top">
                 <span>CS201</span>
                 <small>SEM 02</small>
             </div>
+
             <h3>
-                Data Structure and Algorithms
+                Data Structure & Algorithms
             </h3>
+
             <p>
                 Theory · Engineering · Major
             </p>
@@ -1377,12 +1349,30 @@
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT202</span>
+                <span>CS202</span>
                 <small>SEM 02</small>
             </div>
+
             <h3>
-                Artificial Intelligence with Python
+                Introduction to Artificial Intelligence
             </h3>
+
+            <p>
+                Theory · Engineering · Minor
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS203</span>
+                <small>SEM 02</small>
+            </div>
+
+            <h3>
+                Digital Logic and Computer Organization
+            </h3>
+
             <p>
                 Theory · Engineering · Major
             </p>
@@ -1391,12 +1381,14 @@
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>PH201</span>
+                <span>CH201</span>
                 <small>SEM 02</small>
             </div>
+
             <h3>
-                Engineering Physics
+                Engineering Chemistry
             </h3>
+
             <p>
                 Theory · Science · Multidisciplinary
             </p>
@@ -1408,25 +1400,13 @@
                 <span>M201</span>
                 <small>SEM 02</small>
             </div>
-            <h3>
-                Engineering Mathematics II
-            </h3>
-            <p>
-                Theory · Mathematics
-            </p>
-        </article>
 
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>HU201</span>
-                <small>SEM 02</small>
-            </div>
             <h3>
-                Environmental Science
+                Engineering Mathematics-II
             </h3>
+
             <p>
-                Theory · Humanities
+                Theory · Science · Multidisciplinary
             </p>
         </article>
 
@@ -1436,69 +1416,111 @@
                 <span>HU202</span>
                 <small>SEM 02</small>
             </div>
+
             <h3>
-                Indian Knowledge System
+                Constitution of India & Professional Ethics
             </h3>
+
             <p>
-                Theory · Humanities
-            </p>
-        </article>
-
-
-        <!-- SEMESTER 3 -->
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT301</span>
-                <small>SEM 03</small>
-            </div>
-            <h3>
-                Computer Organization
-                and Architecture
-            </h3>
-            <p>
-                Theory · Engineering
+                Theory · Humanities · Value Added
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT302</span>
+                <span>HU203</span>
+                <small>SEM 02</small>
+            </div>
+
+            <h3>
+                Design Thinking & Innovation
+            </h3>
+
+            <p>
+                Theory · Humanities · Ability Enhancement
+            </p>
+        </article>
+
+
+        <!-- =================================================
+             SEMESTER 3
+        ================================================= -->
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS301</span>
                 <small>SEM 03</small>
             </div>
+
             <h3>
-                Formal Language and
-                Automata Theory
+                Computer Architecture
             </h3>
+
             <p>
-                Theory · Engineering
+                Theory · Engineering · Major
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT303</span>
+                <span>CS302</span>
                 <small>SEM 03</small>
             </div>
+
             <h3>
-                Software Engineering
+                Design and Analysis of Algorithms
             </h3>
+
             <p>
-                Theory · Engineering
+                Theory · Engineering · Major
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>EC(IT)301</span>
+                <span>CS303</span>
                 <small>SEM 03</small>
             </div>
+
             <h3>
-                Analog and Digital Electronics
+                Operating Systems
             </h3>
+
+            <p>
+                Theory · Engineering · Major
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS304</span>
+                <small>SEM 03</small>
+            </div>
+
+            <h3>
+                Advanced Artificial Intelligence
+            </h3>
+
+            <p>
+                Theory · Engineering · Major
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>EC(CS)301</span>
+                <small>SEM 03</small>
+            </div>
+
+            <h3>
+                Internet of Things
+            </h3>
+
             <p>
                 Theory · Engineering · Minor
             </p>
@@ -1507,297 +1529,519 @@
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>M(IT)301</span>
+                <span>M(CS)301</span>
                 <small>SEM 03</small>
             </div>
+
             <h3>
                 Discrete Mathematics
             </h3>
+
             <p>
-                Theory · Science
+                Theory · Science · Minor
             </p>
         </article>
 
 
-        <!-- SEMESTER 4 -->
+        <!-- =================================================
+             SEMESTER 4
+        ================================================= -->
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT401</span>
+                <span>CS401</span>
                 <small>SEM 04</small>
             </div>
+
             <h3>
-                Operating System
+                Database Management Systems
             </h3>
+
             <p>
-                Theory · Engineering
+                Theory · Engineering · Major
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT402</span>
+                <span>CS402</span>
                 <small>SEM 04</small>
             </div>
+
             <h3>
-                Advanced Artificial Intelligence
+                Computer Networks
             </h3>
+
             <p>
-                Theory · Engineering
+                Theory · Engineering · Major
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT403</span>
+                <span>CS403</span>
                 <small>SEM 04</small>
             </div>
-            <h3>
-                Design Analysis & Algorithm
-            </h3>
-            <p>
-                Theory · Engineering
-            </p>
-        </article>
 
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>M(IT)401</span>
-                <small>SEM 04</small>
-            </div>
-            <h3>
-                Probability & Statistics
-            </h3>
-            <p>
-                Theory · Mathematics
-            </p>
-        </article>
-
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>EC(IT)401</span>
-                <small>SEM 04</small>
-            </div>
-            <h3>
-                Microprocessor & Microcontroller
-            </h3>
-            <p>
-                Theory · Engineering
-            </p>
-        </article>
-
-
-        <!-- SEMESTER 5 -->
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT501</span>
-                <small>SEM 05</small>
-            </div>
-            <h3>
-                Database Management System
-            </h3>
-            <p>Theory · Engineering</p>
-        </article>
-
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT502</span>
-                <small>SEM 05</small>
-            </div>
-            <h3>
-                Computer Networking
-            </h3>
-            <p>Theory · Engineering</p>
-        </article>
-
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT503</span>
-                <small>SEM 05</small>
-            </div>
             <h3>
                 Machine Learning
             </h3>
-            <p>Theory · Engineering</p>
-        </article>
 
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT504</span>
-                <small>SEM 05</small>
-            </div>
-            <h3>
-                Full Stack Web Development
-            </h3>
-            <p>Theory · Engineering</p>
-        </article>
-
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT501A-D</span>
-                <small>SEM 05</small>
-            </div>
-            <h3>
-                Engineering Minor Elective
-            </h3>
             <p>
-                Operation Research & Optimization /
-                Ecommerce & ERP /
-                Compiler Design /
-                Distributed System
+                Theory · Engineering · Major
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>HU(IT)501</span>
+                <span>CS404</span>
+                <small>SEM 04</small>
+            </div>
+
+            <h3>
+                Formal Language and Automata Theory
+            </h3>
+
+            <p>
+                Theory · Engineering · Major
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>M(CS)401</span>
+                <small>SEM 04</small>
+            </div>
+
+            <h3>
+                Probability and Statistics
+            </h3>
+
+            <p>
+                Theory · Science · Minor
+            </p>
+        </article>
+
+
+        <!-- =================================================
+             SEMESTER 5
+        ================================================= -->
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS501</span>
                 <small>SEM 05</small>
             </div>
+
             <h3>
-                Economics for Engineers
+                Software Engineering
             </h3>
-            <p>Theory · Humanities</p>
-        </article>
 
-
-        <!-- SEMESTER 6 -->
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT601</span>
-                <small>SEM 06</small>
-            </div>
-            <h3>
-                Cloud Computing
-            </h3>
-            <p>Theory · Engineering</p>
+            <p>
+                Theory · Engineering · Major
+            </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT602</span>
-                <small>SEM 06</small>
+                <span>CS502</span>
+                <small>SEM 05</small>
             </div>
+
             <h3>
-                Internet of Things
+                Object Oriented Programming using Java
             </h3>
-            <p>Theory · Engineering</p>
+
+            <p>
+                Theory · Engineering · Major
+            </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT603</span>
-                <small>SEM 06</small>
+                <span>CS503A</span>
+                <small>SEM 05</small>
             </div>
+
+            <h3>
+                Compiler Design
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS503B</span>
+                <small>SEM 05</small>
+            </div>
+
             <h3>
                 Cryptography and Network Security
             </h3>
-            <p>Theory · Engineering</p>
-        </article>
 
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT604</span>
-                <small>SEM 06</small>
-            </div>
-            <h3>
-                Data Warehousing and Data Mining
-            </h3>
-            <p>Theory · Engineering</p>
-        </article>
-
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>HU(IT)601</span>
-                <small>SEM 06</small>
-            </div>
-            <h3>
-                Principles of Management
-            </h3>
-            <p>Theory · Humanities</p>
-        </article>
-
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT605A-D</span>
-                <small>SEM 06</small>
-            </div>
-            <h3>
-                Engineering Minor Elective
-            </h3>
             <p>
-                Digital Image Processing /
-                Mobile Communication /
-                Internet Technology /
-                Computer Graphics & Multimedia
+                Theory · Engineering · Major Elective
             </p>
         </article>
 
 
-        <!-- SEMESTER 7 -->
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS503C</span>
+                <small>SEM 05</small>
+            </div>
+
+            <h3>
+                Computer Graphics
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT701</span>
-                <small>SEM 07</small>
+                <span>CS503D</span>
+                <small>SEM 05</small>
             </div>
+
+            <h3>
+                Data Handling and Visualization
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS504</span>
+                <small>SEM 05</small>
+            </div>
+
+            <h3>
+                Soft Computing
+            </h3>
+
+            <p>
+                Theory · Engineering · Major
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>HU(CS)501</span>
+                <small>SEM 05</small>
+            </div>
+
+            <h3>
+                Project Management & Finance
+            </h3>
+
+            <p>
+                Theory · Humanities · Minor
+            </p>
+        </article>
+
+
+        <!-- =================================================
+             SEMESTER 6
+        ================================================= -->
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS601</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Web and Internet Technology
+            </h3>
+
+            <p>
+                Theory · Engineering · Major
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS602</span>
+                <small>SEM 06</small>
+            </div>
+
             <h3>
                 Deep Learning
             </h3>
-            <p>Theory · Engineering</p>
-        </article>
 
-
-        <article class="subject-card">
-            <div class="subject-top">
-                <span>IT702A-D</span>
-                <small>SEM 07</small>
-            </div>
-            <h3>
-                Engineering Major Elective
-            </h3>
             <p>
-                Block Chain Technology /
-                BigData Analytics /
-                Digital Forensics /
-                Soft Computing
+                Theory · Engineering · Major
             </p>
         </article>
 
 
         <article class="subject-card">
             <div class="subject-top">
-                <span>IT703A-D</span>
-                <small>SEM 07</small>
+                <span>CS603A</span>
+                <small>SEM 06</small>
             </div>
+
             <h3>
-                Engineering Minor Elective
+                Image Processing
             </h3>
+
             <p>
-                Quantum Computing /
-                Pattern Recognition /
-                Bioinformatics /
-                Cyber Law and IPR
+                Theory · Engineering · Major Elective
             </p>
         </article>
 
 
-        <!-- SEMESTER 8 -->
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS603B</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Cloud Computing
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS603C</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Big Data and Data Analytics
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS603D</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Natural Language Processing
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS604A</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Mobile Computing
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS604B</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Human Computer Interaction
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS604C</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                E-Commerce and Digital Business Model
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS604D</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Quantum Computing
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS605</span>
+                <small>SEM 06</small>
+            </div>
+
+            <h3>
+                Cyber Law and Ethics
+            </h3>
+
+            <p>
+                Theory · Engineering · Minor
+            </p>
+        </article>
+
+
+        <!-- =================================================
+             SEMESTER 7
+        ================================================= -->
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS701A</span>
+                <small>SEM 07</small>
+            </div>
+
+            <h3>
+                Blockchain Technology
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS701B</span>
+                <small>SEM 07</small>
+            </div>
+
+            <h3>
+                Optimization Technique
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS701C</span>
+                <small>SEM 07</small>
+            </div>
+
+            <h3>
+                Bio-informatics
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>CS701D</span>
+                <small>SEM 07</small>
+            </div>
+
+            <h3>
+                Robotics
+            </h3>
+
+            <p>
+                Theory · Engineering · Major Elective
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>HU(CS)701</span>
+                <small>SEM 07</small>
+            </div>
+
+            <h3>
+                Human Resource Development and Organizational Behavior
+            </h3>
+
+            <p>
+                Theory · Humanities · Minor
+            </p>
+        </article>
+
+
+        <article class="subject-card">
+            <div class="subject-top">
+                <span>HU702</span>
+                <small>SEM 07</small>
+            </div>
+
+            <h3>
+                Research Methodology & IPR
+            </h3>
+
+            <p>
+                Theory · Humanities · Value Added
+            </p>
+        </article>
+
+
+        <!-- =================================================
+             SEMESTER 8
+        ================================================= -->
 
         <article class="subject-card subject-card-empty">
 
@@ -1811,8 +2055,8 @@
             </h3>
 
             <p>
-                The official curriculum lists only
-                Internship and Major Project in Semester 8.
+                The R-25 curriculum lists Grand Viva and
+                Internship / Entrepreneurship in Semester 8.
                 These are excluded from the theory archive.
             </p>
 
@@ -1854,7 +2098,6 @@
         <article>
 
             <div class="step-number">01</div>
-
             <div class="step-icon">◈</div>
 
             <h3>
@@ -1871,7 +2114,6 @@
         <article>
 
             <div class="step-number">02</div>
-
             <div class="step-icon">◫</div>
 
             <h3>
@@ -1888,7 +2130,6 @@
         <article>
 
             <div class="step-number">03</div>
-
             <div class="step-icon">⌕</div>
 
             <h3>
@@ -1905,7 +2146,6 @@
         <article>
 
             <div class="step-number">04</div>
-
             <div class="step-icon">✓</div>
 
             <h3>
@@ -2075,98 +2315,205 @@
 
 
 <!-- =========================================================
-     THEORY-ONLY CURRICULUM GUARD
+     THEORY-ONLY CURRICULUM DATA
 ========================================================= -->
 
 <script>
 
 window.QBANK_THEORY_ONLY = {
 
-    "1st Year": {
+    /* =====================================================
+       EXISTING IT DATA — PRESERVED
+    ===================================================== */
 
-        "Semester 1": [
-            "CS101",
-            "CS102",
-            "CH101",
-            "M101",
-            "HU105",
-            "HU103"
-        ],
+    IT: {
 
-        "Semester 2": [
-            "CS201",
-            "IT202",
-            "PH201",
-            "M201",
-            "HU201",
-            "HU202"
-        ]
+        "1st Year": {
+
+            "Semester 1": [
+                "CS101",
+                "CS102",
+                "CH101",
+                "M101",
+                "HU105",
+                "HU103"
+            ],
+
+            "Semester 2": [
+                "CS201",
+                "IT202",
+                "PH201",
+                "M201",
+                "HU201",
+                "HU202"
+            ]
+
+        },
+
+        "2nd Year": {
+
+            "Semester 3": [
+                "IT301",
+                "IT302",
+                "IT303",
+                "EC(IT)301",
+                "M(IT)301"
+            ],
+
+            "Semester 4": [
+                "IT401",
+                "IT402",
+                "IT403",
+                "M(IT)401",
+                "EC(IT)401"
+            ]
+
+        },
+
+        "3rd Year": {
+
+            "Semester 5": [
+                "IT501",
+                "IT502",
+                "IT503",
+                "IT504",
+                "IT501A",
+                "IT501B",
+                "IT501C",
+                "IT501D",
+                "HU(IT)501"
+            ],
+
+            "Semester 6": [
+                "IT601",
+                "IT602",
+                "IT603",
+                "IT604",
+                "HU(IT)601",
+                "IT605A",
+                "IT605B",
+                "IT605C",
+                "IT605D"
+            ]
+
+        },
+
+        "4th Year": {
+
+            "Semester 7": [
+                "IT701",
+                "IT702A",
+                "IT702B",
+                "IT702C",
+                "IT702D",
+                "IT703A",
+                "IT703B",
+                "IT703C",
+                "IT703D"
+            ],
+
+            "Semester 8": []
+
+        }
 
     },
 
-    "2nd Year": {
 
-        "Semester 3": [
-            "IT301",
-            "IT302",
-            "IT303",
-            "EC(IT)301",
-            "M(IT)301"
-        ],
+    /* =====================================================
+       CSE — R-25 THEORY ONLY
+    ===================================================== */
 
-        "Semester 4": [
-            "IT401",
-            "IT402",
-            "IT403",
-            "M(IT)401",
-            "EC(IT)401"
-        ]
+    CSE: {
 
-    },
+        "1st Year": {
 
-    "3rd Year": {
+            "Semester 1": [
+                "CS101",
+                "PH101",
+                "M101",
+                "HU101",
+                "HU102"
+            ],
 
-        "Semester 5": [
-            "IT501",
-            "IT502",
-            "IT503",
-            "IT504",
-            "IT501A",
-            "IT501B",
-            "IT501C",
-            "IT501D",
-            "HU(IT)501"
-        ],
+            "Semester 2": [
+                "CS201",
+                "CS202",
+                "CS203",
+                "CH201",
+                "M201",
+                "HU202",
+                "HU203"
+            ]
 
-        "Semester 6": [
-            "IT601",
-            "IT602",
-            "IT603",
-            "IT604",
-            "HU(IT)601",
-            "IT605A",
-            "IT605B",
-            "IT605C",
-            "IT605D"
-        ]
+        },
 
-    },
 
-    "4th Year": {
+        "2nd Year": {
 
-        "Semester 7": [
-            "IT701",
-            "IT702A",
-            "IT702B",
-            "IT702C",
-            "IT702D",
-            "IT703A",
-            "IT703B",
-            "IT703C",
-            "IT703D"
-        ],
+            "Semester 3": [
+                "CS301",
+                "CS302",
+                "CS303",
+                "CS304",
+                "EC(CS)301",
+                "M(CS)301"
+            ],
 
-        "Semester 8": []
+            "Semester 4": [
+                "CS401",
+                "CS402",
+                "CS403",
+                "CS404",
+                "M(CS)401"
+            ]
+
+        },
+
+
+        "3rd Year": {
+
+            "Semester 5": [
+                "CS501",
+                "CS502",
+                "CS503A",
+                "CS503B",
+                "CS503C",
+                "CS503D",
+                "CS504",
+                "HU(CS)501"
+            ],
+
+            "Semester 6": [
+                "CS601",
+                "CS602",
+                "CS603A",
+                "CS603B",
+                "CS603C",
+                "CS603D",
+                "CS604A",
+                "CS604B",
+                "CS604C",
+                "CS604D",
+                "CS605"
+            ]
+
+        },
+
+
+        "4th Year": {
+
+            "Semester 7": [
+                "CS701A",
+                "CS701B",
+                "CS701C",
+                "CS701D",
+                "HU(CS)701",
+                "HU702"
+            ],
+
+            "Semester 8": []
+
+        }
 
     }
 
@@ -2221,7 +2568,6 @@ window.QBANK_PRACTICAL_BLOCKLIST = [
 
     "IT881",
     "IT882"
-
 ];
 
 
@@ -2266,22 +2612,6 @@ window.QBANK_PRACTICAL_KEYWORDS = [
     }
 
 
-    function isAllowedSubject(code) {
-
-        const allCodes =
-            Object.values(window.QBANK_THEORY_ONLY)
-                .flatMap(year =>
-                    Object.values(year)
-                )
-                .flat();
-
-        return allCodes
-            .map(normalise)
-            .includes(normalise(code));
-
-    }
-
-
     function isBlockedSubject(code, text) {
 
         const normalCode =
@@ -2296,7 +2626,9 @@ window.QBANK_PRACTICAL_KEYWORDS = [
                 .map(normalise)
                 .includes(normalCode)
         ) {
+
             return true;
+
         }
 
 
@@ -2349,18 +2681,6 @@ window.QBANK_PRACTICAL_KEYWORDS = [
                     code,
                     text
                 )
-            ) {
-
-                option.remove();
-
-                return;
-
-            }
-
-
-            if (
-                code &&
-                !isAllowedSubject(code)
             ) {
 
                 option.remove();
@@ -2424,3 +2744,4 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 
 </body>
 </html>
+```
