@@ -654,6 +654,12 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-1/M(IT)101_189.pdf"
         },
         {
+            year: "2023",
+            title: "Engineering Mathematics-I — 2023 (3)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-1/M(IT)101_IT_SET-2.pdf"
+        },
+        {
             year: "2022",
             title: "Engineering Mathematics-I — 2022",
             examType: "Previous Year Question Paper",
@@ -761,6 +767,12 @@ const PDF_DATABASE = {
             title: "Data Structure and Algorithms — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-2/R23_IT201.pdf"
+        },
+        {
+            year: "2023",
+            title: "Data Structure and Algorithms — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/IT304_14.pdf"
         }
     ],
 
@@ -772,11 +784,18 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-2/R25_PH201.pdf"
         },
         {
-            year: "2026",
+            year: "2024",
             title: "Engineering Physics — 2024",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-2/R23_PH(IT)201.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Physics — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/P(IT)101_189.pdf"
         }
+        
     ],
 
     "M201": [
@@ -791,6 +810,12 @@ const PDF_DATABASE = {
             title: "Engineering Mathematics II — 2025",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-2/R23_M(IT)201.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Mathematics II — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/M201.pdf"
         }
     ],
 
@@ -802,10 +827,16 @@ const PDF_DATABASE = {
             file: "pdfs/IT/semester-2/R25_HU201.pdf"
         },
         {
-            year: "2026",
-            title: "Environmental Science — 2026",
+            year: "2024",
+            title: "Environmental Science — 2024",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-2/R23_HU104.pdf"
+        },
+        {
+            year: "2023",
+            title: "Environmental Science — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/HU104_479.pdf"
         }
     ],
 
@@ -821,6 +852,12 @@ const PDF_DATABASE = {
             title: "Indian Knowledge System — 2024",
             examType: "Previous Year Question Paper",
             file: "pdfs/IT/semester-2/R23_HU105.pdf"
+        },
+        {
+            year: "2023",
+            title: "Indian Knowledge System — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/IT/semester-2/HU105_479.pdf"
         }
     ]
 
