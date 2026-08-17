@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
 
@@ -8,7 +8,7 @@
           content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="QBank — Academic Question Bank Portal">
+          content="QBank — Smart Academic Question Bank Portal">
 
     <meta name="theme-color"
           content="#ffffff">
@@ -21,7 +21,7 @@
 <body>
 
 <!-- =========================================================
-     SPLASH SCREEN
+     PREMIUM SPLASH SCREEN
 ========================================================= -->
 
 <div id="splashScreen" class="splash-screen">
@@ -29,26 +29,29 @@
     <div class="splash-bg"></div>
     <div class="splash-grid"></div>
 
+    <!-- Ambient glow -->
     <div class="rainbow-glow glow-1"></div>
     <div class="rainbow-glow glow-2"></div>
     <div class="rainbow-glow glow-3"></div>
 
+    <!-- Decorative orbits -->
     <div class="splash-orbit orbit-a"></div>
     <div class="splash-orbit orbit-b"></div>
 
+    <!-- Floating academic cards -->
     <div class="academic-float float-1">
-        <span class="float-icon">?</span>
+        <span class="float-icon">Q</span>
         <div>
             <strong>Question</strong>
-            <small>Q. 01</small>
+            <small>Academic Archive</small>
         </div>
     </div>
 
     <div class="academic-float float-2">
         <span class="float-icon purple">✓</span>
         <div>
-            <strong>Answer</strong>
-            <small>Verified</small>
+            <strong>Verified</strong>
+            <small>Question Paper</small>
         </div>
     </div>
 
@@ -56,18 +59,20 @@
         <span class="float-icon pink">MCQ</span>
         <div>
             <strong>Practice</strong>
-            <small>Multiple Choice</small>
+            <small>Smart Revision</small>
         </div>
     </div>
 
     <div class="academic-float float-4">
-        <span class="float-icon orange">PYQ</span>
+        <span class="float-icon orange">PDF</span>
         <div>
-            <strong>Previous Paper</strong>
-            <small>Academic Archive</small>
+            <strong>Archive</strong>
+            <small>Past Papers</small>
         </div>
     </div>
 
+
+    <!-- CENTRAL SPLASH -->
     <div class="qbank-splash-core">
 
         <div class="splash-institute">
@@ -75,6 +80,7 @@
             NARULA INSTITUTE OF TECHNOLOGY
             <span></span>
         </div>
+
 
         <div class="qbank-logo-wrap">
 
@@ -87,6 +93,7 @@
             </div>
 
         </div>
+
 
         <div class="splash-brand">
 
@@ -102,6 +109,8 @@
 
         </div>
 
+
+        <!-- Academic journey -->
         <div class="academic-pipeline">
 
             <div class="pipeline-item active">
@@ -132,6 +141,8 @@
 
         </div>
 
+
+        <!-- Question preview -->
         <div class="question-terminal">
 
             <div class="terminal-top">
@@ -142,15 +153,20 @@
                     <span></span>
                 </div>
 
-                <small>QBANK / ACADEMIC ENGINE</small>
+                <small>
+                    QBANK / ACADEMIC ENGINE
+                </small>
 
                 <b>LIVE</b>
 
             </div>
 
+
             <div class="terminal-body">
 
-                <div class="terminal-number">Q.</div>
+                <div class="terminal-number">
+                    Q.
+                </div>
 
                 <div class="terminal-content">
 
@@ -169,12 +185,15 @@
 
             </div>
 
+
             <div class="terminal-progress">
                 <span></span>
             </div>
 
         </div>
 
+
+        <!-- Loading -->
         <div class="splash-loading">
 
             <div class="loading-header">
@@ -183,7 +202,9 @@
                     INITIALISING ACADEMIC ARCHIVE
                 </span>
 
-                <strong id="loadingPercent">0%</strong>
+                <strong id="loadingPercent">
+                    0%
+                </strong>
 
             </div>
 
@@ -193,19 +214,24 @@
 
             <div class="loading-status"
                  id="loadingStatus">
-                Organising theory question bank...
+
+                Organising question papers...
+
             </div>
 
         </div>
 
     </div>
 
+
     <div class="splash-bottom">
+
         <span>NIT</span>
         <b>•</b>
         <span>QBANK</span>
         <b>•</b>
         <span>2026</span>
+
     </div>
 
 </div>
@@ -216,6 +242,11 @@
 ========================================================= -->
 
 <div id="mainSite" class="main-site">
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
 
 <header class="site-header">
 
@@ -239,14 +270,25 @@
 
         </a>
 
+
         <nav class="navigation">
 
             <a href="#about">About</a>
-            <a href="#departments">Departments</a>
-            <a href="#subjects">Subjects</a>
-            <a href="#guide">How it works</a>
+
+            <a href="#departments">
+                Departments
+            </a>
+
+            <a href="#subjects">
+                Subjects
+            </a>
+
+            <a href="#guide">
+                How it works
+            </a>
 
         </nav>
+
 
         <div class="nav-status">
 
@@ -274,6 +316,7 @@
     <div class="hero-orb orb-pink"></div>
     <div class="hero-orb orb-yellow"></div>
 
+
     <div class="hero-wrapper">
 
         <div class="hero-copy">
@@ -290,6 +333,7 @@
 
             </div>
 
+
             <h1>
                 Questions
                 <br>
@@ -298,6 +342,7 @@
                     knowing.
                 </span>
             </h1>
+
 
             <p class="hero-description">
 
@@ -316,6 +361,7 @@
 
             </p>
 
+
             <div class="hero-actions">
 
                 <a href="#departments"
@@ -327,6 +373,7 @@
 
                 </a>
 
+
                 <a href="#guide"
                    class="outline-button">
 
@@ -337,6 +384,7 @@
                 </a>
 
             </div>
+
 
             <div class="hero-note">
 
@@ -353,7 +401,7 @@
         </div>
 
 
-        <!-- HERO VISUAL -->
+        <!-- HERO ARCHIVE VISUAL -->
 
         <div class="archive-visual">
 
@@ -361,6 +409,7 @@
 
             <div class="visual-orbit orbit-a"></div>
             <div class="visual-orbit orbit-b"></div>
+
 
             <div class="archive-paper">
 
@@ -375,6 +424,7 @@
                     </span>
 
                 </div>
+
 
                 <div class="paper-center">
 
@@ -408,6 +458,7 @@
 
                 </div>
 
+
                 <div class="paper-bottom">
 
                     <span>
@@ -421,6 +472,7 @@
                 </div>
 
             </div>
+
 
             <div class="visual-floating vf-one">
                 <span>✓</span>
@@ -441,6 +493,8 @@
 
     </div>
 
+
+    <!-- STATS -->
 
     <div class="hero-stats">
 
@@ -480,6 +534,7 @@
         THE IDEA / 01
     </div>
 
+
     <div class="two-column">
 
         <div>
@@ -491,27 +546,23 @@
 
         </div>
 
+
         <div class="section-description">
 
             <div class="about-box">
 
                 <p>
-
                     QBank organises academic papers
                     through a simple hierarchy:
-
                     <strong>
                         Department → Year → Semester → Theory Subject.
                     </strong>
-
                 </p>
 
                 <p>
-
                     Practical, laboratory, internship
                     and project papers are excluded from
                     this theory archive.
-
                 </p>
 
             </div>
@@ -522,6 +573,7 @@
                 <div class="chain-heading">
                     YOUR ACADEMIC PATH
                 </div>
+
 
                 <div class="academic-chain">
 
@@ -573,6 +625,7 @@
         THE ACADEMIC MAP / 02
     </div>
 
+
     <div class="section-heading-row">
 
         <h2>
@@ -589,8 +642,6 @@
 
 
     <div class="department-grid">
-
-        <!-- IT -->
 
         <button
             class="department-card color-2 active-department"
@@ -623,8 +674,6 @@
         </button>
 
 
-        <!-- CSE -->
-
         <button
             class="department-card color-1 coming-soon"
             data-department="CSE">
@@ -641,13 +690,9 @@
                 Computer Science & Engineering
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -655,8 +700,6 @@
 
         </button>
 
-
-        <!-- ECE -->
 
         <button
             class="department-card color-3 coming-soon"
@@ -674,13 +717,9 @@
                 Electronics & Communication Engineering
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -688,8 +727,6 @@
 
         </button>
 
-
-        <!-- EE -->
 
         <button
             class="department-card color-4 coming-soon"
@@ -707,13 +744,9 @@
                 Electrical Engineering
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -721,8 +754,6 @@
 
         </button>
 
-
-        <!-- EIE -->
 
         <button
             class="department-card color-5 coming-soon"
@@ -740,13 +771,9 @@
                 Electronics & Instrumentation Engineering
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -754,8 +781,6 @@
 
         </button>
 
-
-        <!-- ME -->
 
         <button
             class="department-card color-6 coming-soon"
@@ -773,13 +798,9 @@
                 Mechanical Engineering
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -787,8 +808,6 @@
 
         </button>
 
-
-        <!-- CE -->
 
         <button
             class="department-card color-7 coming-soon"
@@ -806,13 +825,9 @@
                 Civil Engineering
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -820,8 +835,6 @@
 
         </button>
 
-
-        <!-- CST -->
 
         <button
             class="department-card color-8 coming-soon"
@@ -839,13 +852,9 @@
                 Computer Science & Technology
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -853,8 +862,6 @@
 
         </button>
 
-
-        <!-- AIML -->
 
         <button
             class="department-card color-9 coming-soon"
@@ -872,13 +879,9 @@
                 Computer Science (AI & Machine Learning)
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -886,8 +889,6 @@
 
         </button>
 
-
-        <!-- DS -->
 
         <button
             class="department-card color-10 coming-soon"
@@ -905,13 +906,9 @@
                 Computer Science (Data Science)
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -919,8 +916,6 @@
 
         </button>
 
-
-        <!-- CSBS -->
 
         <button
             class="department-card color-11 coming-soon"
@@ -938,13 +933,9 @@
                 Computer Science & Business Systems
             </h3>
 
-            <p>
-                B.Tech
-            </p>
+            <p>B.Tech</p>
 
-            <span class="department-arrow">
-                →
-            </span>
+            <span class="department-arrow">→</span>
 
             <span class="coming-badge">
                 COMING SOON
@@ -996,6 +987,7 @@
 
             </div>
 
+
             <button id="closeExplorer"
                     class="close-explorer">
 
@@ -1006,17 +998,13 @@
         </div>
 
 
-        <!-- =====================================================
-             STEP 1 — YEAR
-        ====================================================== -->
+        <!-- YEAR -->
 
         <div class="filter-step">
 
             <div class="filter-step-heading">
 
-                <span>
-                    01
-                </span>
+                <span>01</span>
 
                 <div>
 
@@ -1040,9 +1028,7 @@
                     class="filter-option"
                     data-year="1st Year">
 
-                    <strong>
-                        1st Year
-                    </strong>
+                    <strong>1st Year</strong>
 
                     <small>
                         Semester 01 — 02
@@ -1055,9 +1041,7 @@
                     class="filter-option"
                     data-year="2nd Year">
 
-                    <strong>
-                        2nd Year
-                    </strong>
+                    <strong>2nd Year</strong>
 
                     <small>
                         Semester 03 — 04
@@ -1070,9 +1054,7 @@
                     class="filter-option"
                     data-year="3rd Year">
 
-                    <strong>
-                        3rd Year
-                    </strong>
+                    <strong>3rd Year</strong>
 
                     <small>
                         Semester 05 — 06
@@ -1085,9 +1067,7 @@
                     class="filter-option"
                     data-year="4th Year">
 
-                    <strong>
-                        4th Year
-                    </strong>
+                    <strong>4th Year</strong>
 
                     <small>
                         Semester 07 — 08
@@ -1100,18 +1080,14 @@
         </div>
 
 
-        <!-- =====================================================
-             STEP 2 — SEMESTER
-        ====================================================== -->
+        <!-- SEMESTER -->
 
         <div class="filter-step disabled-step"
              id="semesterStep">
 
             <div class="filter-step-heading">
 
-                <span>
-                    02
-                </span>
+                <span>02</span>
 
                 <div>
 
@@ -1131,25 +1107,19 @@
             <div id="semesterOptions"
                  class="option-grid semester-grid">
 
-                <!-- Generated by script.js -->
-
             </div>
 
         </div>
 
 
-        <!-- =====================================================
-             STEP 3 — THEORY SUBJECT
-        ====================================================== -->
+        <!-- SUBJECT -->
 
         <div class="filter-step disabled-step"
              id="subjectStep">
 
             <div class="filter-step-heading">
 
-                <span>
-                    03
-                </span>
+                <span>03</span>
 
                 <div>
 
@@ -1169,23 +1139,12 @@
             <div id="subjectOptions"
                  class="subject-selector-grid">
 
-                <!--
-                    IMPORTANT:
-
-                    script.js may generate subjects here.
-
-                    Only theory subject codes from the official
-                    IT curriculum are allowed.
-                -->
-
             </div>
 
         </div>
 
 
-        <!-- =====================================================
-             STEP 4 — RESULTS
-        ====================================================== -->
+        <!-- RESULTS -->
 
         <div class="results-section"
              id="resultsSection">
@@ -1203,6 +1162,7 @@
                     </h2>
 
                 </div>
+
 
                 <div id="resultCount"
                      class="result-count">
@@ -1244,7 +1204,7 @@
 
 
 <!-- =========================================================
-     SEMESTER STRIP
+     SEMESTER JOURNEY
 ========================================================= -->
 
 <section class="semester-section">
@@ -1256,6 +1216,7 @@
         <div class="semester-title">
             ONE ACADEMIC JOURNEY
         </div>
+
 
         <div class="semester-track">
 
@@ -1269,6 +1230,7 @@
             <div>08</div>
 
         </div>
+
 
         <div class="semester-caption">
             SEMESTER 01 — SEMESTER 08
@@ -1309,992 +1271,539 @@
 
     <div class="subject-grid">
 
-
-        <!-- =====================================================
-             SEMESTER 1
-        ====================================================== -->
+        <!-- SEMESTER 1 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    CS101
-                </span>
-
-                <small>
-                    SEM 01
-                </small>
-
+                <span>CS101</span>
+                <small>SEM 01</small>
             </div>
-
             <h3>
                 Introduction to Programming
                 and Problem Solving
             </h3>
-
             <p>
                 Theory · Engineering · Major
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    CS102
-                </span>
-
-                <small>
-                    SEM 01
-                </small>
-
+                <span>CS102</span>
+                <small>SEM 01</small>
             </div>
-
             <h3>
                 Introduction to Artificial Intelligence
             </h3>
-
             <p>
                 Theory · Engineering · Minor
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    CH101
-                </span>
-
-                <small>
-                    SEM 01
-                </small>
-
+                <span>CH101</span>
+                <small>SEM 01</small>
             </div>
-
             <h3>
                 Engineering Chemistry
             </h3>
-
             <p>
                 Theory · Science · Multidisciplinary
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    M101
-                </span>
-
-                <small>
-                    SEM 01
-                </small>
-
+                <span>M101</span>
+                <small>SEM 01</small>
             </div>
-
             <h3>
                 Engineering Mathematics-I
             </h3>
-
             <p>
                 Theory · Mathematics
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    HU105
-                </span>
-
-                <small>
-                    SEM 01
-                </small>
-
+                <span>HU105</span>
+                <small>SEM 01</small>
             </div>
-
             <h3>
                 Constitution of India &
                 Professional Ethics
             </h3>
-
             <p>
                 Theory · Humanities
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    HU103
-                </span>
-
-                <small>
-                    SEM 01
-                </small>
-
+                <span>HU103</span>
+                <small>SEM 01</small>
             </div>
-
             <h3>
                 Design Thinking & Innovation
             </h3>
-
             <p>
                 Theory · Humanities
             </p>
-
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 2
-        ====================================================== -->
+        <!-- SEMESTER 2 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    CS201
-                </span>
-
-                <small>
-                    SEM 02
-                </small>
-
+                <span>CS201</span>
+                <small>SEM 02</small>
             </div>
-
             <h3>
                 Data Structure and Algorithms
             </h3>
-
             <p>
                 Theory · Engineering · Major
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT202
-                </span>
-
-                <small>
-                    SEM 02
-                </small>
-
+                <span>IT202</span>
+                <small>SEM 02</small>
             </div>
-
             <h3>
                 Artificial Intelligence with Python
             </h3>
-
             <p>
                 Theory · Engineering · Major
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    PH201
-                </span>
-
-                <small>
-                    SEM 02
-                </small>
-
+                <span>PH201</span>
+                <small>SEM 02</small>
             </div>
-
             <h3>
                 Engineering Physics
             </h3>
-
             <p>
                 Theory · Science · Multidisciplinary
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    M201
-                </span>
-
-                <small>
-                    SEM 02
-                </small>
-
+                <span>M201</span>
+                <small>SEM 02</small>
             </div>
-
             <h3>
                 Engineering Mathematics II
             </h3>
-
             <p>
                 Theory · Mathematics
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    HU201
-                </span>
-
-                <small>
-                    SEM 02
-                </small>
-
+                <span>HU201</span>
+                <small>SEM 02</small>
             </div>
-
             <h3>
                 Environmental Science
             </h3>
-
             <p>
                 Theory · Humanities
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    HU202
-                </span>
-
-                <small>
-                    SEM 02
-                </small>
-
+                <span>HU202</span>
+                <small>SEM 02</small>
             </div>
-
             <h3>
                 Indian Knowledge System
             </h3>
-
             <p>
                 Theory · Humanities
             </p>
-
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 3
-        ====================================================== -->
+        <!-- SEMESTER 3 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT301
-                </span>
-
-                <small>
-                    SEM 03
-                </small>
-
+                <span>IT301</span>
+                <small>SEM 03</small>
             </div>
-
             <h3>
                 Computer Organization
                 and Architecture
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT302
-                </span>
-
-                <small>
-                    SEM 03
-                </small>
-
+                <span>IT302</span>
+                <small>SEM 03</small>
             </div>
-
             <h3>
                 Formal Language and
                 Automata Theory
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT303
-                </span>
-
-                <small>
-                    SEM 03
-                </small>
-
+                <span>IT303</span>
+                <small>SEM 03</small>
             </div>
-
             <h3>
                 Software Engineering
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    EC(IT)301
-                </span>
-
-                <small>
-                    SEM 03
-                </small>
-
+                <span>EC(IT)301</span>
+                <small>SEM 03</small>
             </div>
-
             <h3>
                 Analog and Digital Electronics
             </h3>
-
             <p>
                 Theory · Engineering · Minor
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    M(IT)301
-                </span>
-
-                <small>
-                    SEM 03
-                </small>
-
+                <span>M(IT)301</span>
+                <small>SEM 03</small>
             </div>
-
             <h3>
                 Discrete Mathematics
             </h3>
-
             <p>
                 Theory · Science
             </p>
-
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 4
-        ====================================================== -->
+        <!-- SEMESTER 4 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT401
-                </span>
-
-                <small>
-                    SEM 04
-                </small>
-
+                <span>IT401</span>
+                <small>SEM 04</small>
             </div>
-
             <h3>
                 Operating System
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT402
-                </span>
-
-                <small>
-                    SEM 04
-                </small>
-
+                <span>IT402</span>
+                <small>SEM 04</small>
             </div>
-
             <h3>
                 Advanced Artificial Intelligence
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT403
-                </span>
-
-                <small>
-                    SEM 04
-                </small>
-
+                <span>IT403</span>
+                <small>SEM 04</small>
             </div>
-
             <h3>
                 Design Analysis & Algorithm
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    M(IT)401
-                </span>
-
-                <small>
-                    SEM 04
-                </small>
-
+                <span>M(IT)401</span>
+                <small>SEM 04</small>
             </div>
-
             <h3>
                 Probability & Statistics
             </h3>
-
             <p>
                 Theory · Mathematics
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    EC(IT)401
-                </span>
-
-                <small>
-                    SEM 04
-                </small>
-
+                <span>EC(IT)401</span>
+                <small>SEM 04</small>
             </div>
-
             <h3>
                 Microprocessor & Microcontroller
             </h3>
-
             <p>
                 Theory · Engineering
             </p>
-
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 5
-        ====================================================== -->
+        <!-- SEMESTER 5 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT501
-                </span>
-
-                <small>
-                    SEM 05
-                </small>
-
+                <span>IT501</span>
+                <small>SEM 05</small>
             </div>
-
             <h3>
                 Database Management System
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT502
-                </span>
-
-                <small>
-                    SEM 05
-                </small>
-
+                <span>IT502</span>
+                <small>SEM 05</small>
             </div>
-
             <h3>
                 Computer Networking
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT503
-                </span>
-
-                <small>
-                    SEM 05
-                </small>
-
+                <span>IT503</span>
+                <small>SEM 05</small>
             </div>
-
             <h3>
                 Machine Learning
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT504
-                </span>
-
-                <small>
-                    SEM 05
-                </small>
-
+                <span>IT504</span>
+                <small>SEM 05</small>
             </div>
-
             <h3>
                 Full Stack Web Development
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT501A-D
-                </span>
-
-                <small>
-                    SEM 05
-                </small>
-
+                <span>IT501A-D</span>
+                <small>SEM 05</small>
             </div>
-
             <h3>
                 Engineering Minor Elective
             </h3>
-
             <p>
                 Operation Research & Optimization /
                 Ecommerce & ERP /
                 Compiler Design /
                 Distributed System
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    HU(IT)501
-                </span>
-
-                <small>
-                    SEM 05
-                </small>
-
+                <span>HU(IT)501</span>
+                <small>SEM 05</small>
             </div>
-
             <h3>
                 Economics for Engineers
             </h3>
-
-            <p>
-                Theory · Humanities
-            </p>
-
+            <p>Theory · Humanities</p>
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 6
-        ====================================================== -->
+        <!-- SEMESTER 6 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT601
-                </span>
-
-                <small>
-                    SEM 06
-                </small>
-
+                <span>IT601</span>
+                <small>SEM 06</small>
             </div>
-
             <h3>
                 Cloud Computing
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT602
-                </span>
-
-                <small>
-                    SEM 06
-                </small>
-
+                <span>IT602</span>
+                <small>SEM 06</small>
             </div>
-
             <h3>
                 Internet of Things
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT603
-                </span>
-
-                <small>
-                    SEM 06
-                </small>
-
+                <span>IT603</span>
+                <small>SEM 06</small>
             </div>
-
             <h3>
                 Cryptography and Network Security
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT604
-                </span>
-
-                <small>
-                    SEM 06
-                </small>
-
+                <span>IT604</span>
+                <small>SEM 06</small>
             </div>
-
             <h3>
                 Data Warehousing and Data Mining
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    HU(IT)601
-                </span>
-
-                <small>
-                    SEM 06
-                </small>
-
+                <span>HU(IT)601</span>
+                <small>SEM 06</small>
             </div>
-
             <h3>
                 Principles of Management
             </h3>
-
-            <p>
-                Theory · Humanities
-            </p>
-
+            <p>Theory · Humanities</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT605A-D
-                </span>
-
-                <small>
-                    SEM 06
-                </small>
-
+                <span>IT605A-D</span>
+                <small>SEM 06</small>
             </div>
-
             <h3>
                 Engineering Minor Elective
             </h3>
-
             <p>
                 Digital Image Processing /
                 Mobile Communication /
                 Internet Technology /
                 Computer Graphics & Multimedia
             </p>
-
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 7
-        ====================================================== -->
+        <!-- SEMESTER 7 -->
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT701
-                </span>
-
-                <small>
-                    SEM 07
-                </small>
-
+                <span>IT701</span>
+                <small>SEM 07</small>
             </div>
-
             <h3>
                 Deep Learning
             </h3>
-
-            <p>
-                Theory · Engineering
-            </p>
-
+            <p>Theory · Engineering</p>
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT702A-D
-                </span>
-
-                <small>
-                    SEM 07
-                </small>
-
+                <span>IT702A-D</span>
+                <small>SEM 07</small>
             </div>
-
             <h3>
                 Engineering Major Elective
             </h3>
-
             <p>
                 Block Chain Technology /
                 BigData Analytics /
                 Digital Forensics /
                 Soft Computing
             </p>
-
         </article>
 
 
         <article class="subject-card">
-
             <div class="subject-top">
-
-                <span>
-                    IT703A-D
-                </span>
-
-                <small>
-                    SEM 07
-                </small>
-
+                <span>IT703A-D</span>
+                <small>SEM 07</small>
             </div>
-
             <h3>
                 Engineering Minor Elective
             </h3>
-
             <p>
                 Quantum Computing /
                 Pattern Recognition /
                 Bioinformatics /
                 Cyber Law and IPR
             </p>
-
         </article>
 
 
-        <!-- =====================================================
-             SEMESTER 8
-        ====================================================== -->
+        <!-- SEMESTER 8 -->
 
         <article class="subject-card subject-card-empty">
 
             <div class="subject-top">
-
-                <span>
-                    SEM 08
-                </span>
-
-                <small>
-                    THEORY
-                </small>
-
+                <span>SEM 08</span>
+                <small>THEORY</small>
             </div>
 
             <h3>
@@ -2325,6 +1834,7 @@
         THE QBANK METHOD / 04
     </div>
 
+
     <div class="section-heading-row">
 
         <h2>
@@ -2343,13 +1853,9 @@
 
         <article>
 
-            <div class="step-number">
-                01
-            </div>
+            <div class="step-number">01</div>
 
-            <div class="step-icon">
-                ◈
-            </div>
+            <div class="step-icon">◈</div>
 
             <h3>
                 Choose Department
@@ -2364,13 +1870,9 @@
 
         <article>
 
-            <div class="step-number">
-                02
-            </div>
+            <div class="step-number">02</div>
 
-            <div class="step-icon">
-                ◫
-            </div>
+            <div class="step-icon">◫</div>
 
             <h3>
                 Choose Year
@@ -2385,13 +1887,9 @@
 
         <article>
 
-            <div class="step-number">
-                03
-            </div>
+            <div class="step-number">03</div>
 
-            <div class="step-icon">
-                ⌕
-            </div>
+            <div class="step-icon">⌕</div>
 
             <h3>
                 Choose Theory Subject
@@ -2406,13 +1904,9 @@
 
         <article>
 
-            <div class="step-number">
-                04
-            </div>
+            <div class="step-number">04</div>
 
-            <div class="step-icon">
-                ✓
-            </div>
+            <div class="step-icon">✓</div>
 
             <h3>
                 View PDF
@@ -2441,19 +1935,23 @@
         QB
     </div>
 
+
     <div class="section-label">
         ENTER THE ARCHIVE
     </div>
+
 
     <h2>
         Find the paper.
         <em>Start studying.</em>
     </h2>
 
+
     <p>
         Choose your department, year, semester and
         theory subject to explore the academic archive.
     </p>
+
 
     <div class="cta-buttons">
 
@@ -2578,11 +2076,6 @@
 
 <!-- =========================================================
      THEORY-ONLY CURRICULUM GUARD
-     
-     This prevents practical/lab/project/internship subjects
-     from being displayed by the subject explorer.
-
-     ONLY OFFICIAL THEORY PAPER CODES ARE ALLOWED.
 ========================================================= -->
 
 <script>
@@ -2611,7 +2104,6 @@ window.QBANK_THEORY_ONLY = {
 
     },
 
-
     "2nd Year": {
 
         "Semester 3": [
@@ -2631,7 +2123,6 @@ window.QBANK_THEORY_ONLY = {
         ]
 
     },
-
 
     "3rd Year": {
 
@@ -2661,7 +2152,6 @@ window.QBANK_THEORY_ONLY = {
 
     },
 
-
     "4th Year": {
 
         "Semester 7": [
@@ -2685,8 +2175,6 @@ window.QBANK_THEORY_ONLY = {
 
 /* =========================================================
    PRACTICAL / LAB / PROJECT BLOCKLIST
-
-   These must NEVER appear in the theory explorer.
 ========================================================= */
 
 window.QBANK_PRACTICAL_BLOCKLIST = [
@@ -2763,7 +2251,7 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 
 
 /* =========================================================
-   FILTER GENERATED SUBJECT BUTTONS
+   SUBJECT FILTER
 ========================================================= */
 
 (function () {
@@ -2780,9 +2268,12 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 
     function isAllowedSubject(code) {
 
-        const allCodes = Object.values(window.QBANK_THEORY_ONLY)
-            .flatMap(year => Object.values(year))
-            .flat();
+        const allCodes =
+            Object.values(window.QBANK_THEORY_ONLY)
+                .flatMap(year =>
+                    Object.values(year)
+                )
+                .flat();
 
         return allCodes
             .map(normalise)
@@ -2793,8 +2284,12 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 
     function isBlockedSubject(code, text) {
 
-        const normalCode = normalise(code);
-        const normalText = normalise(text);
+        const normalCode =
+            normalise(code);
+
+        const normalText =
+            normalise(text);
+
 
         if (
             window.QBANK_PRACTICAL_BLOCKLIST
@@ -2807,7 +2302,9 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 
         return window.QBANK_PRACTICAL_KEYWORDS
             .some(keyword =>
-                normalText.includes(normalise(keyword))
+                normalText.includes(
+                    normalise(keyword)
+                )
             );
 
     }
@@ -2816,7 +2313,9 @@ window.QBANK_PRACTICAL_KEYWORDS = [
     function filterSubjectOptions() {
 
         const container =
-            document.getElementById("subjectOptions");
+            document.getElementById(
+                "subjectOptions"
+            );
 
         if (!container) {
             return;
@@ -2834,7 +2333,9 @@ window.QBANK_PRACTICAL_KEYWORDS = [
             const code =
                 option.dataset.code ||
                 option.dataset.subjectCode ||
-                option.getAttribute("data-subject-code") ||
+                option.getAttribute(
+                    "data-subject-code"
+                ) ||
                 option.dataset.subject ||
                 "";
 
@@ -2843,12 +2344,12 @@ window.QBANK_PRACTICAL_KEYWORDS = [
                 option.textContent || "";
 
 
-            /*
-             * If a subject has a practical keyword,
-             * remove it immediately.
-             */
-
-            if (isBlockedSubject(code, text)) {
+            if (
+                isBlockedSubject(
+                    code,
+                    text
+                )
+            ) {
 
                 option.remove();
 
@@ -2856,11 +2357,6 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 
             }
 
-
-            /*
-             * If a recognisable code exists,
-             * only allow official theory codes.
-             */
 
             if (
                 code &&
@@ -2876,19 +2372,11 @@ window.QBANK_PRACTICAL_KEYWORDS = [
     }
 
 
-    /*
-     * Run after script.js renders subjects.
-     */
-
     document.addEventListener(
         "DOMContentLoaded",
         filterSubjectOptions
     );
 
-
-    /*
-     * Watch dynamically-created subject buttons.
-     */
 
     const observer =
         new MutationObserver(() => {
@@ -2903,7 +2391,10 @@ window.QBANK_PRACTICAL_KEYWORDS = [
         () => {
 
             const subjectContainer =
-                document.getElementById("subjectOptions");
+                document.getElementById(
+                    "subjectOptions"
+                );
+
 
             if (subjectContainer) {
 
@@ -2932,5 +2423,4 @@ window.QBANK_PRACTICAL_KEYWORDS = [
 <script src="script.js"></script>
 
 </body>
-
 </html>
