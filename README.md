@@ -1,29 +1,37 @@
-QBank v2 — Premium Vintage Academic Homepage
+# 🎓 QBANK — Academic Archive
 
-Files:
-- index.html
-- style.css
-- script.js
+<p align="center">
+  <img src="https://img.shields.io/badge/QBANK-Academic%20Archive-7C3AED?style=for-the-badge" alt="QBANK">
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-0EA5E9?style=for-the-badge" alt="Frontend">
+  <img src="https://img.shields.io/badge/Storage-Local%20PDF%20Archive-10B981?style=for-the-badge" alt="Storage">
+  <img src="https://img.shields.io/badge/Backend-None-F43F5E?style=for-the-badge" alt="Backend">
+</p>
 
-Design:
-- Premium vintage academic archive aesthetic
-- Paper / ink / antique-gold palette
-- Animated seal splash screen
-- Public information-focused homepage
-- Department directory
-- Semester strip
-- Subject preview
-- Simple "how it works"
-- Sign in / Get started modal
-- Responsive layout
+<p align="center">
+  <b>A modern, fast and beautifully designed academic question-paper archive.</b>
+</p>
 
-Important architecture:
-The homepage is intentionally NOT the student dashboard.
-Login/signup is a gateway only. In the next stage:
-1. Signup captures account data.
-2. Login checks session.
-3. Existing session can redirect to dashboard.html.
-4. Dashboard is a separate page.
-5. Question-bank content is protected behind the account.
+<p align="center">
+  Find your Department → Year → Semester → Subject → Question Paper
+</p>
 
-Official NIT curriculum information was used as the reference for the department/subject preview. The complete question catalogue should be connected to the exact current curriculum in the next stage.
+---
+
+## ✨ Overview
+
+**QBANK — Academic Archive** is a pure frontend academic question-paper management and browsing system designed to make previous-year question papers easier to discover and access.
+
+The project follows a simple academic navigation flow:
+
+```text
+Department
+    ↓
+Academic Year
+    ↓
+Semester
+    ↓
+Subject
+    ↓
+Question Paper
+    ↓
+View / Download PDF
