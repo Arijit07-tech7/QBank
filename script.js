@@ -651,13 +651,13 @@ const PDF_DATABASE = {
             year: "2023",
             title: "Engineering Mathematics-I — 2023",
             examType: "Previous Year Question Paper",
-            file: "pdfs/IT/semester-1/R23_M(IT)101_189.pdf"
+            file: "pdfs/IT/semester-1/M(IT)101_189.pdf"
         },
         {
             year: "2022",
             title: "Engineering Mathematics-I — 2022",
             examType: "Previous Year Question Paper",
-            file: "pdfs/IT/semester-1/21_M101.pdf"
+            file: "pdfs/IT/semester-1/21_ M101"
         }
     ],
 
