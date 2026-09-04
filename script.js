@@ -1488,10 +1488,140 @@ const CSE_PDF_DATABASE = {
 
     "CS101": [
         {
+            year: "2026",
+            title: "Introduction to Programming and Problem Solving — 2026",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_CS101.pdf"
+        },
+        {
             year: "2025",
             title: "Introduction to Programming and Problem Solving — 2025",
             examType: "Previous Year Question Paper",
-            file: "pdfs/CSE/semester-1/CS101.pdf"
+            file: "pdfs/CSE/semester-1/R21_CS201.pdf"
+        },
+         {
+            year: "2024",
+            title: "Introduction to Programming and Problem Solving — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_CS101_251.pdf"
+        },
+        {
+            year: "2023",
+            title: "Introduction to Programming and Problem Solving — 2023 (1)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/CS101_250.pdf"
+        },
+        {
+            year: "2023",
+            title: "Introduction to Programming and Problem Solving — 2023 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/CS201.pdf"
+        }
+    ],
+
+    "M101": [
+        {
+            year: "2025",
+            title: "Engineering Mathematics-I — 2025 (1)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R21_M101.pdf"
+        },
+        {
+            year: "2025",
+            title: "Engineering Mathematics-I — 2025 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R18_M101.pdf"
+        },
+        {
+            year: "2024",
+            title: "Engineering Mathematics-I — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_M(CS)101_258.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Mathematics-I — 2023 (1)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/M(CS)101_250.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Mathematics-I — 2023 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/M(CS)101_CSE_SET-2.pdf"
+        }
+    ],
+    PH101: [
+        {
+            year: "2026",
+            title: "Engineering Physics — 2026 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_PH(CS)201.pdf"
+        },
+        {
+            year: "2025",
+            title: "Engineering Physics — 2025 (1)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/r25_PH101.pdf"
+        },
+        {
+            year: "2025",
+            title: "Engineering Physics — 2025 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_PH(CS)201 (1).pdf"
+        },
+        {
+            year: "2024",
+            title: "Engineering Physics — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/PH(CS)201.pdf"
+        },
+        {
+            year: "2023",
+            title: "Engineering Physics — 2023",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/PH101.pdf"
+        }
+    ],
+
+    HU101: [
+        {
+            year: "2025",
+            title: "Environmental Science — 2025 (1)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R25_HU101.pdf"
+        },
+        {
+            year: "2025",
+            title: "Environmental Science — 2025 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_HU204.pdf"
+        },
+        {
+            year: "2024",
+            title: "Environmental Science — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/HU204.pdf"
+        }
+    ],
+    HU102: [
+        {
+            year: "2025",
+            title: "Indian Knowledge System — 2025 (1)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R25_HU102.pdf"
+        },
+        {
+            year: "2025",
+            title: "Indian Knowledge System — 2025 (2)",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/R23_HU205.pdf"
+        },
+        {
+            year: "2024",
+            title: "Indian Knowledge System — 2024",
+            examType: "Previous Year Question Paper",
+            file: "pdfs/CSE/semester-1/HU205.pdf"
         }
     ]
 
